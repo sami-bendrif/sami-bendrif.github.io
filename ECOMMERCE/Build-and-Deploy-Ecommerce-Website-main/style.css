@@ -118,7 +118,7 @@ body {
     height: 2px;
     background: #088178;
     position: absolute;
-    bottom: -4px;
+    bottom: 4px;
     left: 20px;
 }
 
@@ -333,7 +333,7 @@ body {
 #sm-banner {
     display:flex;
     flex-wrap: nowrap;
-    justify-content:space-around;
+    justify-content:space-between;
     padding: 10 80px;
 }
 
@@ -348,6 +348,7 @@ body {
     background-size: cover;
     background-position: center;
     padding: 30px;
+    justify-content: space-between;
 }
 
 #sm-banner .banner-box2 {
@@ -1245,4 +1246,7 @@ footer .copyright {
         padding: 20px;
     }
 
+}
+.toast-container {
+    z-index: 9999;
 }

@@ -34,7 +34,7 @@
 
     <section id="prodetails" class="section-p1">
         <div class="single-pro-image">
-            <img src="img/products/f1.jpg" width="100%" id="MainImg" alt="">
+            <img src="img/products/f2.jpg" width="100%" id="MainImg" alt="">
 
             <div class="small-img-group">
                 <div class="small-img-col">
@@ -53,17 +53,17 @@
         </div>
 
         <div class="single-pro-details">
-            <h6 >Home / T-Shirts</h6>
-            <h4 id="product" value="Men's Fashion T Shirt">Men's Fashion T Shirt</h4>
-            <h2>89.00dh</h2><br> Select Size
-            <select id="size">
-                
-                <option value="Small">Small</option>
-                <option value="Large">Large</option>
-                <option value="XL">XL</option>
-                <option value="XXL">XXL</option>
+            <h6>Home / T-Shirts</h6>
+            <h4>Men's Fashion T Shirt</h4>
+            <h2>89.00dh</h2>
+            <select>
+                <option>Select Size</option>
+                <option>Small</option>
+                <option>Large</option>
+                <option>XL</option>
+                <option>XXL</option>
             </select>
-            <input type="number" min="1" value="1" id="quantity">
+            <input type="number" min="1" value="1">
             <button type="button" class="normal" data-bs-toggle="modal" data-bs-target="#cartModal">
                 Add To Cart
             </button>
@@ -85,21 +85,6 @@
         </div>
     </div>
 </div>
-
-<div class="toast-container position-fixed bottom-0 end-0 p-3">
-    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="toast-header">
-            <img src="https://via.placeholder.com/20" class="rounded me-2" alt="Website logo">
-            <strong class="me-auto">Website Name</strong>
-            <small class="text-muted">just now</small>
-            <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-        </div>
-        <div class="toast-body">
-            This product has been added to your cart.
-        </div>
-    </div>
-</div>
-
             <h4>Product Details</h4>
             <span>The Gildan Ultra Cotton T-shirt is made from a substantial 6.0 oz. 
                 per sq. yd. fabric constructed from 100% cotton, this classic fit 
@@ -263,28 +248,10 @@
             MainImg.src = smallimg[3].src;
         }
     </script>
-     <script>
-        function sendProduct() {
-          // Get the product information
-          
-          const productValue = document.getElementById('product').value;
-          const quantityValue = document.getElementById('quantity').value;
-          const sizeValue = document.getElementById('size').value;
-          
-          // Calculate the total price
-          const totalPrice = productValue * quantityValue;
-          
-          // Build the query string
-          const queryString = 'product=' + productValue + '&quantity=' + quantityValue + '&size=' + sizeValue + '&totalPrice=' + totalPrice;
-          
-          // Redirect to the shop page with the query string
-          window.location.href = 'cart2.html?' + queryString;
-        }
-      </script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js"></script>
-<script src="panier.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.min.js"></script>
     <script src="script.js"></script> 
 </body>
 </html>
