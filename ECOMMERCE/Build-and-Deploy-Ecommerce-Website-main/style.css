@@ -333,7 +333,7 @@ body {
 #sm-banner {
     display:flex;
     flex-wrap: nowrap;
-    justify-content:space-between;
+    justify-content:space-around;
     padding: 10 80px;
 }
 
@@ -348,7 +348,6 @@ body {
     background-size: cover;
     background-position: center;
     padding: 30px;
-    justify-content: space-between;
 }
 
 #sm-banner .banner-box2 {
