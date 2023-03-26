@@ -343,7 +343,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     background-image: url("img/banner/b17.jpg");
-    min-width: 580px;
+    min-width: 560px;
     height: 50vh;
     background-size: cover;
     background-position: center;
@@ -1120,7 +1120,7 @@ footer .copyright {
     #sm-banner .banner-box {
     justify-content: center;
         height:43vh;
-        justify-content:space-evenly;
+        justify-content:space-around;
     }
 
     #sm-banner .banner-box2 {
